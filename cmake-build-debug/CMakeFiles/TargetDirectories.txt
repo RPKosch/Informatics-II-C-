@@ -1,0 +1,3 @@
+/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/CMakeFiles/Informatics_II_Code.dir
+/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
