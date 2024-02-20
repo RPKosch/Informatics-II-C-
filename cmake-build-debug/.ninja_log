@@ -1,5 +1,10 @@
 # ninja log v5
-0	40	1708433929411290521	CMakeFiles/Informatics_II_Code.dir/main.c.o	3454c227f90ec7e1
-40	89	1708433929460977764	Informatics_II_Code	bcbcbec51faa0567
-0	38	1708435906126904641	CMakeFiles/Informatics_II_Code.dir/main.c.o	3454c227f90ec7e1
-39	93	1708435906182008809	Informatics_II_Code	bcbcbec51faa0567
+44	102	1708439720246433225	Informatics_II_Code	bcbcbec51faa0567
+0	47	1708441031863465458	build.ninja	c0037749a59b5659
+0	41	1708438199135858855	CMakeFiles/Informatics_II_Code.dir/All_Exercises/Exercise_1/Exercise0.c.o	98d907693c7f0197
+0	43	1708439720186439637	CMakeFiles/Informatics_II_Code.dir/main.c.o	3454c227f90ec7e1
+0	52	1708441031863465458	build.ninja	c0037749a59b5659
+3	45	1708441031917338450	CMakeFiles/Informatics_II_Code.dir/main.c.o	3454c227f90ec7e1
+45	97	1708441031970605644	Informatics_II_Code	bcbcbec51faa0567
+0	39	1708441261290877689	CMakeFiles/Informatics_II_Code.dir/main.c.o	3454c227f90ec7e1
+39	89	1708441261340847736	Informatics_II_Code	bcbcbec51faa0567

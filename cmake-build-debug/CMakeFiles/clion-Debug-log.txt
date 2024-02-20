@@ -1,10 +1,14 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code" -B "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug"
--- The C compiler identification is AppleClang 14.0.0.14000029
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug
+CMake Error at CMakeLists.txt:4 (add_subdirectory):
+  add_subdirectory given source "All_Exercises/Exercise_1" which is not an
+  existing directory.
+
+
+CMake Error at CMakeLists.txt:5 (add_subdirectory):
+  add_subdirectory given source "All_Exercises/Exercise_2" which is not an
+  existing directory.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/CMakeFiles/CMakeError.log".
