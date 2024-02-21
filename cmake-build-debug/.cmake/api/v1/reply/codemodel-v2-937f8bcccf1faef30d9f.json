@@ -1,0 +1,113 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "All Exercises/Exercise 1",
+					"jsonFile" : "directory-All Exercises.Exercise 1-Debug-95775e54cf805c768976.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "All Exercises/Exercise 1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "All Exercises/Exercise 2",
+					"jsonFile" : "directory-All Exercises.Exercise 2-Debug-d0e1478b2217b87840b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "All Exercises/Exercise 2",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "Informatics_II_Code",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Exercise1::@eb9b3966e9aab36ad04c",
+					"jsonFile" : "target-Exercise1-Debug-b1a61349e1bd4b4e1679.json",
+					"name" : "Exercise1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Exercise2::@b2ca92514996ce3069f6",
+					"jsonFile" : "target-Exercise2-Debug-eae36043c7c3ce69ebb0.json",
+					"name" : "Exercise2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Informatics_II_Code::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Informatics_II_Code-Debug-e0f31b78b0b91936a459.json",
+					"name" : "Informatics_II_Code",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/ralphkosch/Desktop/Uni Z\u00fcrich/Info 2/Informatics II Code/cmake-build-debug",
+		"source" : "/Users/ralphkosch/Desktop/Uni Z\u00fcrich/Info 2/Informatics II Code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
