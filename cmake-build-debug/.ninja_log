@@ -1,10 +1,11 @@
 # ninja log v5
-44	102	1708439720246433225	Informatics_II_Code	bcbcbec51faa0567
-0	47	1708441031863465458	build.ninja	c0037749a59b5659
-0	41	1708438199135858855	CMakeFiles/Informatics_II_Code.dir/All_Exercises/Exercise_1/Exercise0.c.o	98d907693c7f0197
-0	43	1708439720186439637	CMakeFiles/Informatics_II_Code.dir/main.c.o	3454c227f90ec7e1
-0	52	1708441031863465458	build.ninja	c0037749a59b5659
-3	45	1708441031917338450	CMakeFiles/Informatics_II_Code.dir/main.c.o	3454c227f90ec7e1
-45	97	1708441031970605644	Informatics_II_Code	bcbcbec51faa0567
 0	39	1708441261290877689	CMakeFiles/Informatics_II_Code.dir/main.c.o	3454c227f90ec7e1
+0	41	1708438199135858855	CMakeFiles/Informatics_II_Code.dir/All_Exercises/Exercise_1/Exercise0.c.o	98d907693c7f0197
+1	61	1712008332109007742	All Exercises/Exercise 2/CMakeFiles/Exercise2.dir/Exercise2.c.o	6b99729ce8209b30
+9	112	1714489765321561349	build.ninja	c0037749a59b5659
 39	89	1708441261340847736	Informatics_II_Code	bcbcbec51faa0567
+62	115	1712008332162800397	All Exercises/Exercise 2/Exercise2	58ed21e6c23e8dc0
+0	47	1714489774729153220	All Exercises/Exercise 1/CMakeFiles/Exercise1.dir/Exercise1.c.o	bb4d762392f7fa9f
+48	133	1714489774815265707	All Exercises/Exercise 1/Exercise1	b57dda7f5ec33fa7
+0	39	1714489798137955953	All Exercises/Exercise 9/CMakeFiles/Exercise9.dir/Exercise9.c.o	e00e307f0d2f612b
+39	94	1714489798193711220	All Exercises/Exercise 9/Exercise9	c90af03157ac4e62

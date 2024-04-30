@@ -1,0 +1,1 @@
+add_executable(Exercise4 Exercise4.c)
