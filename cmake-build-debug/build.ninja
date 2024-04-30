@@ -210,11 +210,438 @@ build All$ Exercises/Exercise$ 2/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build All$ Exercises/Exercise$ 2/rebuild_cache: phony All$ Exercises/Exercise$ 2/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Exercise3
+
+
+#############################################
+# Order-only phony target for Exercise3
+
+build cmake_object_order_depends_target_Exercise3: phony || All$ Exercises/Exercise$ 3/CMakeFiles/Exercise3.dir
+
+build All$ Exercises/Exercise$ 3/CMakeFiles/Exercise3.dir/Exercise3.c.o: C_COMPILER__Exercise3_Debug /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 3/Exercise3.c || cmake_object_order_depends_target_Exercise3
+  DEP_FILE = "All Exercises/Exercise 3/CMakeFiles/Exercise3.dir/Exercise3.c.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = "All Exercises/Exercise 3/CMakeFiles/Exercise3.dir"
+  OBJECT_FILE_DIR = "All Exercises/Exercise 3/CMakeFiles/Exercise3.dir"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Exercise3
+
+
+#############################################
+# Link the executable All Exercises/Exercise 3/Exercise3
+
+build All$ Exercises/Exercise$ 3/Exercise3: C_EXECUTABLE_LINKER__Exercise3_Debug All$ Exercises/Exercise$ 3/CMakeFiles/Exercise3.dir/Exercise3.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = "All Exercises/Exercise 3/CMakeFiles/Exercise3.dir"
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = "All Exercises/Exercise 3/Exercise3"
+  TARGET_PDB = Exercise3.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build All$ Exercises/Exercise$ 3/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 3" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build All$ Exercises/Exercise$ 3/edit_cache: phony All$ Exercises/Exercise$ 3/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build All$ Exercises/Exercise$ 3/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 3" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code" -B"/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build All$ Exercises/Exercise$ 3/rebuild_cache: phony All$ Exercises/Exercise$ 3/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Exercise4
+
+
+#############################################
+# Order-only phony target for Exercise4
+
+build cmake_object_order_depends_target_Exercise4: phony || All$ Exercises/Exercise$ 4/CMakeFiles/Exercise4.dir
+
+build All$ Exercises/Exercise$ 4/CMakeFiles/Exercise4.dir/Exercise4.c.o: C_COMPILER__Exercise4_Debug /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 4/Exercise4.c || cmake_object_order_depends_target_Exercise4
+  DEP_FILE = "All Exercises/Exercise 4/CMakeFiles/Exercise4.dir/Exercise4.c.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = "All Exercises/Exercise 4/CMakeFiles/Exercise4.dir"
+  OBJECT_FILE_DIR = "All Exercises/Exercise 4/CMakeFiles/Exercise4.dir"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Exercise4
+
+
+#############################################
+# Link the executable All Exercises/Exercise 4/Exercise4
+
+build All$ Exercises/Exercise$ 4/Exercise4: C_EXECUTABLE_LINKER__Exercise4_Debug All$ Exercises/Exercise$ 4/CMakeFiles/Exercise4.dir/Exercise4.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = "All Exercises/Exercise 4/CMakeFiles/Exercise4.dir"
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = "All Exercises/Exercise 4/Exercise4"
+  TARGET_PDB = Exercise4.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build All$ Exercises/Exercise$ 4/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 4" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build All$ Exercises/Exercise$ 4/edit_cache: phony All$ Exercises/Exercise$ 4/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build All$ Exercises/Exercise$ 4/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 4" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code" -B"/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build All$ Exercises/Exercise$ 4/rebuild_cache: phony All$ Exercises/Exercise$ 4/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Exercise5
+
+
+#############################################
+# Order-only phony target for Exercise5
+
+build cmake_object_order_depends_target_Exercise5: phony || All$ Exercises/Exercise$ 5/CMakeFiles/Exercise5.dir
+
+build All$ Exercises/Exercise$ 5/CMakeFiles/Exercise5.dir/Exercise5.c.o: C_COMPILER__Exercise5_Debug /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 5/Exercise5.c || cmake_object_order_depends_target_Exercise5
+  DEP_FILE = "All Exercises/Exercise 5/CMakeFiles/Exercise5.dir/Exercise5.c.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = "All Exercises/Exercise 5/CMakeFiles/Exercise5.dir"
+  OBJECT_FILE_DIR = "All Exercises/Exercise 5/CMakeFiles/Exercise5.dir"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Exercise5
+
+
+#############################################
+# Link the executable All Exercises/Exercise 5/Exercise5
+
+build All$ Exercises/Exercise$ 5/Exercise5: C_EXECUTABLE_LINKER__Exercise5_Debug All$ Exercises/Exercise$ 5/CMakeFiles/Exercise5.dir/Exercise5.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = "All Exercises/Exercise 5/CMakeFiles/Exercise5.dir"
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = "All Exercises/Exercise 5/Exercise5"
+  TARGET_PDB = Exercise5.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build All$ Exercises/Exercise$ 5/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 5" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build All$ Exercises/Exercise$ 5/edit_cache: phony All$ Exercises/Exercise$ 5/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build All$ Exercises/Exercise$ 5/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 5" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code" -B"/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build All$ Exercises/Exercise$ 5/rebuild_cache: phony All$ Exercises/Exercise$ 5/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Exercise6
+
+
+#############################################
+# Order-only phony target for Exercise6
+
+build cmake_object_order_depends_target_Exercise6: phony || All$ Exercises/Exercise$ 6/CMakeFiles/Exercise6.dir
+
+build All$ Exercises/Exercise$ 6/CMakeFiles/Exercise6.dir/Exercise6.c.o: C_COMPILER__Exercise6_Debug /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 6/Exercise6.c || cmake_object_order_depends_target_Exercise6
+  DEP_FILE = "All Exercises/Exercise 6/CMakeFiles/Exercise6.dir/Exercise6.c.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = "All Exercises/Exercise 6/CMakeFiles/Exercise6.dir"
+  OBJECT_FILE_DIR = "All Exercises/Exercise 6/CMakeFiles/Exercise6.dir"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Exercise6
+
+
+#############################################
+# Link the executable All Exercises/Exercise 6/Exercise6
+
+build All$ Exercises/Exercise$ 6/Exercise6: C_EXECUTABLE_LINKER__Exercise6_Debug All$ Exercises/Exercise$ 6/CMakeFiles/Exercise6.dir/Exercise6.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = "All Exercises/Exercise 6/CMakeFiles/Exercise6.dir"
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = "All Exercises/Exercise 6/Exercise6"
+  TARGET_PDB = Exercise6.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build All$ Exercises/Exercise$ 6/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 6" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build All$ Exercises/Exercise$ 6/edit_cache: phony All$ Exercises/Exercise$ 6/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build All$ Exercises/Exercise$ 6/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 6" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code" -B"/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build All$ Exercises/Exercise$ 6/rebuild_cache: phony All$ Exercises/Exercise$ 6/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Exercise7
+
+
+#############################################
+# Order-only phony target for Exercise7
+
+build cmake_object_order_depends_target_Exercise7: phony || All$ Exercises/Exercise$ 7/CMakeFiles/Exercise7.dir
+
+build All$ Exercises/Exercise$ 7/CMakeFiles/Exercise7.dir/Exercise7.c.o: C_COMPILER__Exercise7_Debug /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 7/Exercise7.c || cmake_object_order_depends_target_Exercise7
+  DEP_FILE = "All Exercises/Exercise 7/CMakeFiles/Exercise7.dir/Exercise7.c.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = "All Exercises/Exercise 7/CMakeFiles/Exercise7.dir"
+  OBJECT_FILE_DIR = "All Exercises/Exercise 7/CMakeFiles/Exercise7.dir"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Exercise7
+
+
+#############################################
+# Link the executable All Exercises/Exercise 7/Exercise7
+
+build All$ Exercises/Exercise$ 7/Exercise7: C_EXECUTABLE_LINKER__Exercise7_Debug All$ Exercises/Exercise$ 7/CMakeFiles/Exercise7.dir/Exercise7.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = "All Exercises/Exercise 7/CMakeFiles/Exercise7.dir"
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = "All Exercises/Exercise 7/Exercise7"
+  TARGET_PDB = Exercise7.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build All$ Exercises/Exercise$ 7/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 7" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build All$ Exercises/Exercise$ 7/edit_cache: phony All$ Exercises/Exercise$ 7/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build All$ Exercises/Exercise$ 7/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 7" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code" -B"/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build All$ Exercises/Exercise$ 7/rebuild_cache: phony All$ Exercises/Exercise$ 7/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Exercise8
+
+
+#############################################
+# Order-only phony target for Exercise8
+
+build cmake_object_order_depends_target_Exercise8: phony || All$ Exercises/Exercise$ 8/CMakeFiles/Exercise8.dir
+
+build All$ Exercises/Exercise$ 8/CMakeFiles/Exercise8.dir/Exercise8.c.o: C_COMPILER__Exercise8_Debug /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 8/Exercise8.c || cmake_object_order_depends_target_Exercise8
+  DEP_FILE = "All Exercises/Exercise 8/CMakeFiles/Exercise8.dir/Exercise8.c.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = "All Exercises/Exercise 8/CMakeFiles/Exercise8.dir"
+  OBJECT_FILE_DIR = "All Exercises/Exercise 8/CMakeFiles/Exercise8.dir"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Exercise8
+
+
+#############################################
+# Link the executable All Exercises/Exercise 8/Exercise8
+
+build All$ Exercises/Exercise$ 8/Exercise8: C_EXECUTABLE_LINKER__Exercise8_Debug All$ Exercises/Exercise$ 8/CMakeFiles/Exercise8.dir/Exercise8.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = "All Exercises/Exercise 8/CMakeFiles/Exercise8.dir"
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = "All Exercises/Exercise 8/Exercise8"
+  TARGET_PDB = Exercise8.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build All$ Exercises/Exercise$ 8/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 8" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build All$ Exercises/Exercise$ 8/edit_cache: phony All$ Exercises/Exercise$ 8/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build All$ Exercises/Exercise$ 8/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 8" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code" -B"/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build All$ Exercises/Exercise$ 8/rebuild_cache: phony All$ Exercises/Exercise$ 8/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Exercise9
+
+
+#############################################
+# Order-only phony target for Exercise9
+
+build cmake_object_order_depends_target_Exercise9: phony || All$ Exercises/Exercise$ 9/CMakeFiles/Exercise9.dir
+
+build All$ Exercises/Exercise$ 9/CMakeFiles/Exercise9.dir/Exercise9.c.o: C_COMPILER__Exercise9_Debug /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 9/Exercise9.c || cmake_object_order_depends_target_Exercise9
+  DEP_FILE = "All Exercises/Exercise 9/CMakeFiles/Exercise9.dir/Exercise9.c.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = "All Exercises/Exercise 9/CMakeFiles/Exercise9.dir"
+  OBJECT_FILE_DIR = "All Exercises/Exercise 9/CMakeFiles/Exercise9.dir"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Exercise9
+
+
+#############################################
+# Link the executable All Exercises/Exercise 9/Exercise9
+
+build All$ Exercises/Exercise$ 9/Exercise9: C_EXECUTABLE_LINKER__Exercise9_Debug All$ Exercises/Exercise$ 9/CMakeFiles/Exercise9.dir/Exercise9.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = "All Exercises/Exercise 9/CMakeFiles/Exercise9.dir"
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = "All Exercises/Exercise 9/Exercise9"
+  TARGET_PDB = Exercise9.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build All$ Exercises/Exercise$ 9/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 9" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build All$ Exercises/Exercise$ 9/edit_cache: phony All$ Exercises/Exercise$ 9/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build All$ Exercises/Exercise$ 9/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 9" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code" -B"/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build All$ Exercises/Exercise$ 9/rebuild_cache: phony All$ Exercises/Exercise$ 9/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build Exercise1: phony All$ Exercises/Exercise$ 1/Exercise1
 
 build Exercise2: phony All$ Exercises/Exercise$ 2/Exercise2
+
+build Exercise3: phony All$ Exercises/Exercise$ 3/Exercise3
+
+build Exercise4: phony All$ Exercises/Exercise$ 4/Exercise4
+
+build Exercise5: phony All$ Exercises/Exercise$ 5/Exercise5
+
+build Exercise6: phony All$ Exercises/Exercise$ 6/Exercise6
+
+build Exercise7: phony All$ Exercises/Exercise$ 7/Exercise7
+
+build Exercise8: phony All$ Exercises/Exercise$ 8/Exercise8
+
+build Exercise9: phony All$ Exercises/Exercise$ 9/Exercise9
 
 # =============================================================================
 # Folder targets.
@@ -224,7 +651,7 @@ build Exercise2: phony All$ Exercises/Exercise$ 2/Exercise2
 #############################################
 # Folder: /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug
 
-build all: phony Informatics_II_Code All$ Exercises/Exercise$ 1/all All$ Exercises/Exercise$ 2/all
+build all: phony Informatics_II_Code All$ Exercises/Exercise$ 1/all All$ Exercises/Exercise$ 2/all All$ Exercises/Exercise$ 3/all All$ Exercises/Exercise$ 4/all All$ Exercises/Exercise$ 5/all All$ Exercises/Exercise$ 6/all All$ Exercises/Exercise$ 7/all All$ Exercises/Exercise$ 8/all All$ Exercises/Exercise$ 9/all
 
 # =============================================================================
 
@@ -241,20 +668,69 @@ build All$ Exercises/Exercise$ 1/all: phony All$ Exercises/Exercise$ 1/Exercise1
 build All$ Exercises/Exercise$ 2/all: phony All$ Exercises/Exercise$ 2/Exercise2
 
 # =============================================================================
+
+#############################################
+# Folder: /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 3
+
+build All$ Exercises/Exercise$ 3/all: phony All$ Exercises/Exercise$ 3/Exercise3
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 4
+
+build All$ Exercises/Exercise$ 4/all: phony All$ Exercises/Exercise$ 4/Exercise4
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 5
+
+build All$ Exercises/Exercise$ 5/all: phony All$ Exercises/Exercise$ 5/Exercise5
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 6
+
+build All$ Exercises/Exercise$ 6/all: phony All$ Exercises/Exercise$ 6/Exercise6
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 7
+
+build All$ Exercises/Exercise$ 7/all: phony All$ Exercises/Exercise$ 7/Exercise7
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 8
+
+build All$ Exercises/Exercise$ 8/all: phony All$ Exercises/Exercise$ 8/Exercise8
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 9
+
+build All$ Exercises/Exercise$ 9/all: phony All$ Exercises/Exercise$ 9/Exercise9
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 1/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 2/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 1/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 2/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 3/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 4/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 5/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 6/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 7/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 8/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 9/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 1/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 2/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 1/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 2/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 3/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 4/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 5/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 6/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 7/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 8/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/All$ Exercises/Exercise$ 9/CMakeLists.txt /Users/ralphkosch/Desktop/Uni$ Zürich/Info$ 2/Informatics$ II$ Code/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################
