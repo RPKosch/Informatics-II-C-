@@ -1,0 +1,288 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "All Exercises/Exercise 1",
+					"jsonFile" : "directory-All Exercises.Exercise 1-Debug-663b7e58ba904703eb9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "All Exercises/Exercise 1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "All Exercises/Exercise 2",
+					"jsonFile" : "directory-All Exercises.Exercise 2-Debug-71344491d99585b5a30d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "All Exercises/Exercise 2",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "All Exercises/Exercise 3",
+					"jsonFile" : "directory-All Exercises.Exercise 3-Debug-0178c3b7c4d9013552de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "All Exercises/Exercise 3",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "All Exercises/Exercise 4",
+					"jsonFile" : "directory-All Exercises.Exercise 4-Debug-dba87a647073349f03e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "All Exercises/Exercise 4",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "All Exercises/Exercise 5",
+					"jsonFile" : "directory-All Exercises.Exercise 5-Debug-09b26767d6e0f162ca6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "All Exercises/Exercise 5",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "All Exercises/Exercise 6",
+					"jsonFile" : "directory-All Exercises.Exercise 6-Debug-6b0ab4f953110cad0b68.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "All Exercises/Exercise 6",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "All Exercises/Exercise 7",
+					"jsonFile" : "directory-All Exercises.Exercise 7-Debug-4a1e6fdf7ab0a435db2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "All Exercises/Exercise 7",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "All Exercises/Exercise 8",
+					"jsonFile" : "directory-All Exercises.Exercise 8-Debug-c5566d17f462ff6633b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "All Exercises/Exercise 8",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "All Exercises/Exercise 9",
+					"jsonFile" : "directory-All Exercises.Exercise 9-Debug-167f19ed0d322caf238e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "All Exercises/Exercise 9",
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "Informatics_II_Code",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Exercise1::@eb9b3966e9aab36ad04c",
+					"jsonFile" : "target-Exercise1-Debug-af767045372dceb8537b.json",
+					"name" : "Exercise1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Exercise2::@b2ca92514996ce3069f6",
+					"jsonFile" : "target-Exercise2-Debug-15cb9b906201c770d0f1.json",
+					"name" : "Exercise2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Exercise3::@74a9e62ec8fcc434cbca",
+					"jsonFile" : "target-Exercise3-Debug-07053f9d0adff347dcf7.json",
+					"name" : "Exercise3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Exercise4::@3846128369b3b4549558",
+					"jsonFile" : "target-Exercise4-Debug-8dd159e88b4717690fd3.json",
+					"name" : "Exercise4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Exercise5::@548b865c2e198528aa24",
+					"jsonFile" : "target-Exercise5-Debug-453d4cbcd0a459cbf54b.json",
+					"name" : "Exercise5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Exercise6::@c854d89e094504c1efe1",
+					"jsonFile" : "target-Exercise6-Debug-26c499fe2495d682bef0.json",
+					"name" : "Exercise6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Exercise7::@3df5364498b5d9a4c643",
+					"jsonFile" : "target-Exercise7-Debug-5959c88959af0402f4f8.json",
+					"name" : "Exercise7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Exercise8::@7cdbaf5d680ced31ffcb",
+					"jsonFile" : "target-Exercise8-Debug-65e0aaded4fff3280b41.json",
+					"name" : "Exercise8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "Exercise9::@d2e5faa717a1efce3d22",
+					"jsonFile" : "target-Exercise9-Debug-974c228723a6bfa0f400.json",
+					"name" : "Exercise9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Informatics_II_Code::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Informatics_II_Code-Debug-828b9c89e142a97591ad.json",
+					"name" : "Informatics_II_Code",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug",
+		"source" : "C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

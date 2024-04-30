@@ -186,6 +186,18 @@ static void selectionsort(int array[], int length){
     printf("%d", count);
 }
 
+static void swapint(int list[], int first, int second){
+    int tmp = list[first];
+    list[first] = list[second];
+    list[second] = tmp;
+}
+
+static void swapchar(char list[], int first, int second){
+    char tmp = list[first];
+    list[first] = list[second];
+    list[second] = tmp;
+}
+
 int main() {
     char string[] = "hallllloo";
     int size = strlen(string);
@@ -211,6 +223,12 @@ int main() {
     insertionsort(array3, size);
     printf("\n");
     selectionsort(array4, size);
+
+    char string1[] = "Gugus";
+    int sl = sizeof(string1)/ sizeof(string1[0]);
+    printf("\n %s", string1);
+    swapchar(string1, 0, sl-2);
+    printf("\n %s", string1);
     return 0;
 
 

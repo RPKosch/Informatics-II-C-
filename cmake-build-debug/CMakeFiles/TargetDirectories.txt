@@ -1,30 +1,30 @@
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/CMakeFiles/Informatics_II_Code.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 1/CMakeFiles/Exercise1.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 1/CMakeFiles/edit_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 1/CMakeFiles/rebuild_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 2/CMakeFiles/Exercise2.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 2/CMakeFiles/edit_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 2/CMakeFiles/rebuild_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 3/CMakeFiles/Exercise3.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 3/CMakeFiles/edit_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 3/CMakeFiles/rebuild_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 4/CMakeFiles/Exercise4.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 4/CMakeFiles/edit_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 4/CMakeFiles/rebuild_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 5/CMakeFiles/Exercise5.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 5/CMakeFiles/edit_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 5/CMakeFiles/rebuild_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 6/CMakeFiles/Exercise6.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 6/CMakeFiles/edit_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 6/CMakeFiles/rebuild_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 7/CMakeFiles/Exercise7.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 7/CMakeFiles/edit_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 7/CMakeFiles/rebuild_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 8/CMakeFiles/Exercise8.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 8/CMakeFiles/edit_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 8/CMakeFiles/rebuild_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 9/CMakeFiles/Exercise9.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 9/CMakeFiles/edit_cache.dir
-/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 9/CMakeFiles/rebuild_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/CMakeFiles/Informatics_II_Code.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 1/CMakeFiles/Exercise1.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 1/CMakeFiles/edit_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 1/CMakeFiles/rebuild_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 2/CMakeFiles/Exercise2.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 2/CMakeFiles/edit_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 2/CMakeFiles/rebuild_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 3/CMakeFiles/Exercise3.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 3/CMakeFiles/edit_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 3/CMakeFiles/rebuild_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 4/CMakeFiles/Exercise4.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 4/CMakeFiles/edit_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 4/CMakeFiles/rebuild_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 5/CMakeFiles/Exercise5.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 5/CMakeFiles/edit_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 5/CMakeFiles/rebuild_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 6/CMakeFiles/Exercise6.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 6/CMakeFiles/edit_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 6/CMakeFiles/rebuild_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 7/CMakeFiles/Exercise7.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 7/CMakeFiles/edit_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 7/CMakeFiles/rebuild_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 8/CMakeFiles/Exercise8.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 8/CMakeFiles/edit_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 8/CMakeFiles/rebuild_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 9/CMakeFiles/Exercise9.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 9/CMakeFiles/edit_cache.dir
+C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 9/CMakeFiles/rebuild_cache.dir

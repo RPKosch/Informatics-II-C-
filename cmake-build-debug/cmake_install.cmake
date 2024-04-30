@@ -1,8 +1,8 @@
-# Install script for directory: /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code
+# Install script for directory: C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Informatics_II_Code")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,52 +34,52 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 1/cmake_install.cmake")
+  include("C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 1/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 2/cmake_install.cmake")
+  include("C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 2/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 3/cmake_install.cmake")
+  include("C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 3/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 4/cmake_install.cmake")
+  include("C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 4/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 5/cmake_install.cmake")
+  include("C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 5/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 6/cmake_install.cmake")
+  include("C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 6/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 7/cmake_install.cmake")
+  include("C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 7/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 8/cmake_install.cmake")
+  include("C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 8/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/All Exercises/Exercise 9/cmake_install.cmake")
+  include("C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 9/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -90,5 +90,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

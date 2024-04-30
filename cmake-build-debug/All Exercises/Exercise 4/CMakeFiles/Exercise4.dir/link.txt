@@ -1,0 +1,3 @@
+"D:\Games\Clion\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\Exercise4.dir/objects.a
+"D:\Games\Clion\CLion 2024.1.1\bin\mingw\bin\ar.exe" qc CMakeFiles\Exercise4.dir/objects.a @CMakeFiles\Exercise4.dir\objects1.rsp
+"D:\Games\Clion\CLion 2024.1.1\bin\mingw\bin\gcc.exe" -g -Wl,--whole-archive CMakeFiles\Exercise4.dir/objects.a -Wl,--no-whole-archive -o Exercise4.exe -Wl,--out-implib,libExercise4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Exercise4.dir\linkLibs.rsp
