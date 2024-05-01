@@ -71,7 +71,29 @@ static void HeapSort(int array[], int length){
     }
 }
 
+static int HoarePartitioning(int A[], int l, int r) {
+    int x = A[r];
+    int i = l-1;
+    int j = r+1;
 
+    while(1) {
+        do {j--;} while (A[j] > x);
+        do {i++;} while (A[i] < x);
+        if(i < j) {
+            swapint(A, i, j);
+        } else {
+            return i;
+        }
+    }
+}
+
+static void QuickSort(int A[], int l, int r ) {
+    if(l < r){
+    int m = HoarePartitioning(A, l , r);
+    QuickSort(A, l, m-1);
+    QuickSort(A, m, r);
+    }
+}
 
 int main(){
     char string[] = "hallo";
@@ -82,7 +104,7 @@ int main(){
     int array[] = {2,4,5,7,1,2,3,6};
     int size = sizeof(array)/sizeof(array[0]);
     //Mergesort(array, 0, size-1);
-    HeapSort(array, size-1);
+    QuickSort(array, 0, size-1);
 
     for(int x = 0; x < size; x++) {
         printf("%d ", array[x]);
