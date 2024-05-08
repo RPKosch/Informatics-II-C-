@@ -72,6 +72,7 @@ static void HeapSort(int array[], int length){
 }
 
 static int HoarePartitioning(int A[], int l, int r) {
+    printf("This is l: %d and this is r: %d \n", l, r);
     int x = A[r];
     int i = l-1;
     int j = r+1;
@@ -80,6 +81,7 @@ static int HoarePartitioning(int A[], int l, int r) {
         do {j--;} while (A[j] > x);
         do {i++;} while (A[i] < x);
         if(i < j) {
+            printf("This is i: %d and this is j: %d \n", i, j);
             swapint(A, i, j);
         } else {
             return i;
@@ -110,4 +112,11 @@ int main(){
         printf("%d ", array[x]);
     }
 
+    int array1[] = {2, 6, 4, 1, 5, 3};
+    int size1 = sizeof(array1)/sizeof(array1[0]);
+    printf("\n Hoare: %d \n", HoarePartitioning(array1, 0, size1-1));
+
+    for(int x = 0; x < size1; x++) {
+        printf("%d ", array1[x]);
+    }
 }
