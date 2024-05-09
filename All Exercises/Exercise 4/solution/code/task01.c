@@ -26,7 +26,6 @@ int find_closest_modified_binary_search(int A[], int low, int high, int t){
         }
     }
     return closest;
-
 } 
 
 
