@@ -56,7 +56,7 @@ struct TreeNode* delete(struct TreeNode** root, int val){
 
     // Case 0: node does not exist
     if (curr == NULL){ // val not found in tree
-        return;
+        return NULL;
     }
 
     // Case 1: deleting node with 0 children
