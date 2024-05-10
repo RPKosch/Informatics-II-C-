@@ -19,7 +19,7 @@ bool is_empty() {
     return (S == NULL);
 }
 
-int pop() {
+int pop1() {
     if (is_empty() == 1) {
         return -1;
     }
@@ -44,9 +44,21 @@ int pop() {
     }
 }
 
-// No need to return `bool` like in subtask a), because the push is always
-// successful.
-void push(int x) {
+int pop() {
+    if (is_empty() == 1) {
+        return -1;
+    }
+    int top_value = S->key;
+    struct Node *temp = S;
+    S = S->next;
+    free(temp);
+    return top_value;
+}
+
+//This code is actually unnecessary - we do not need the if statement
+
+// No need to return `bool` like in subtask a), because the push is always successful.
+void push1(int x) {
     // We have two cases here:
     // 1. The stack is empty (S == NULL). Create a new node for S.
     // 2. The stack is not empty. Add a new node to the head of the list and
@@ -64,6 +76,16 @@ void push(int x) {
         S = new_node;
     }
 }
+
+
+void push(int x) {
+    struct Node *new_node = malloc(sizeof(struct Node));
+    new_node->key = x;
+    new_node->next = S;
+    S = new_node;
+}
+
+
 
 // Demo code starting here.
 void print_stack_helper(struct Node *node) {

@@ -38,7 +38,6 @@ int pop(struct Node** S) {
 
 void push(struct Node** S, int x) {
     struct Node* new_node = malloc(sizeof(struct Node));
-
     new_node->key = x;
     new_node->next = *S;
     *S = new_node;
