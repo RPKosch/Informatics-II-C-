@@ -1,0 +1,1 @@
+add_executable(All_Algorithms All_Algorithms.c)

@@ -68,6 +68,20 @@ static void snippet6() {
 
 //Exercise 1.2
 
+static void swapint(int array[], int x, int y){
+    int tmp = array[x];
+    array[x] = array[y];
+    array[y] = tmp;
+}
+
+static void printall(int array[], int length) {
+    printf("\n[");
+    for (int x = 0; x < length-1; x++) {
+        printf("%d, ", array[x]);
+    }
+    printf("%d]", array[length-1]);
+}
+
 static void rleCompression(char string[], int length){
     char newstring[length*2];
     for(int x = 0; x < length; x++){
@@ -112,32 +126,16 @@ static void getcontinousSubarraystozero(int arrays[], int length){
     return;
 }
 
-// Exercise 1.3
-// Sorted list from left to right
 static void bubblesort(int array[], int length){
-    int count = 0;
-    for(int i = length-1; i >= 1; i--){
-        int checker = 0;
-        for(int j = 1; j <= i; j++){
-            count++;
-            if(array[j] < array[j-1]){
-                int t = array[j];
-                array[j] = array[j-1];
-                array[j-1] = t;
-                checker = 1;
+    printall(array, length);
+    for(int x = length; x > 0; x--){
+        for(int y = 1; y < x; y++ ){
+            if(array[y] < array[y-1]){
+                swapint(array, y, y-1);
             }
         }
-        printf("[");
-        for(int x = 0; x < length; x++){
-            printf(" %d", array[x]);
-        }
-        printf(" ]\n");
-        if(checker == 0){
-            printf("%d", count);
-            return;
-        }
     }
-    printf("%d", count);
+    printall(array, length);
 }
 // Correct sorted list until iteration from left
 static void insertionsort(int array[], int length){
@@ -145,22 +143,13 @@ static void insertionsort(int array[], int length){
     for(int i = 1; i <= length-1; i++){
         int j = i -1;
         int t = array[i];
+         while(j>=0 && t < array[j]){
+                    count++;
+                    array[j+1] = array[j];
+                    j--;
+                }
+                array[j+1] = t;
 
-
-        while(j>=0 && t < array[j]){
-            count++;
-            array[j+1] = array[j];
-            j--;
-        }
-        array[j+1] = t;
-        printf("[");
-        for(int x = 0; x < length; x++){
-            printf(" %d", array[x]);
-        }
-        printf(" ]\n");
-
-    }
-    printf("%d", count);
 }
 // Correct element form left to right
 static void selectionsort(int array[], int length){
@@ -186,12 +175,6 @@ static void selectionsort(int array[], int length){
     printf("%d", count);
 }
 
-static void swapint(int list[], int first, int second){
-    int tmp = list[first];
-    list[first] = list[second];
-    list[second] = tmp;
-}
-
 static void swapchar(char list[], int first, int second){
     char tmp = list[first];
     list[first] = list[second];
@@ -202,27 +185,27 @@ int main() {
     char string[] = "hallllloo";
     int size = strlen(string);
     rleCompression(string, size);
-/*/
+
+    int array1[] = {5, 4, 3, 2, 1, 0};
     int array2[] = {5, 4, 3, 2, 1, 0};
     int array3[] = {5, 4, 3, 2, 1, 0};
-    int array4[] = {5, 4, 3, 2, 1, 0};
 
-    int array2[] = {0, 1, 3, 4, 2, 8, 9, 5, 6, 7};
-    int array3[] = {0, 1, 3, 4, 2, 8, 9, 5, 6, 7};
     int array4[] = {0, 1, 3, 4, 2, 8, 9, 5, 6, 7};
-/*/
-    int array2[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-    int array3[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-    int array4[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int array5[] = {0, 1, 3, 4, 2, 8, 9, 5, 6, 7};
+    int array6[] = {0, 1, 3, 4, 2, 8, 9, 5, 6, 7};
+
+    int array7[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int array8[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int array9[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
     size = sizeof(array2)/ sizeof(array2[0]);
     getcontinousSubarrays(array2, size);
     printf("\n\n");
     bubblesort(array2, size);
-    printf("\n");
-    insertionsort(array3, size);
-    printf("\n");
-    selectionsort(array4, size);
+//    printf("\n");
+//    insertionsort(array3, size);
+//    printf("\n");
+//    selectionsort(array4, size);
 
     char string1[] = "Gugus";
     int sl = sizeof(string1)/ sizeof(string1[0]);

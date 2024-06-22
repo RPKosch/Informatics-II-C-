@@ -10,6 +10,7 @@ add_subdirectory("All Exercises/Exercise 6")
 add_subdirectory("All Exercises/Exercise 7")
 add_subdirectory("All Exercises/Exercise 8")
 add_subdirectory("All Exercises/Exercise 9")
+add_subdirectory("All Exercises/All_Algorithms")
 
 set(CMAKE_C_STANDARD 11)
 
