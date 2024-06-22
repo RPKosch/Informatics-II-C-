@@ -1,8 +1,8 @@
-# Install script for directory: /Users/ralphkosch/Desktop/Uni Zürich/Info 2/Informatics II Code/All Exercises/Exercise 8
+# Install script for directory: C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 8
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Informatics_II_Code")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/objdump.exe")
 endif()
 

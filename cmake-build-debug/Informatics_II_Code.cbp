@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Informatics_II_Code"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\All Exercises\;CMake Files\All Exercises\Exercise 1\;CMake Files\All Exercises\Exercise 2\;CMake Files\All Exercises\Exercise 3\;CMake Files\All Exercises\Exercise 4\;CMake Files\All Exercises\Exercise 5\;CMake Files\All Exercises\Exercise 6\;CMake Files\All Exercises\Exercise 7\;CMake Files\All Exercises\Exercise 8\;CMake Files\All Exercises\Exercise 9\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Informatics_II_Code">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Informatics_II_Code.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Informatics_II_Code"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Informatics_II_Code/fast">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Informatics_II_Code.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Informatics_II_Code/fast"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise1">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 1/Exercise1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 1/Makefile&quot;  VERBOSE=1 Exercise1"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise1/fast">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 1/Exercise1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 1/Makefile&quot;  VERBOSE=1 Exercise1/fast"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise2">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 2/Exercise2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 2/Makefile&quot;  VERBOSE=1 Exercise2"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise2/fast">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 2/Exercise2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 2/Makefile&quot;  VERBOSE=1 Exercise2/fast"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise3">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 3/Exercise3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 3/Makefile&quot;  VERBOSE=1 Exercise3"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise3/fast">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 3/Exercise3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 3/Makefile&quot;  VERBOSE=1 Exercise3/fast"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise4">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 4/Exercise4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 4/Makefile&quot;  VERBOSE=1 Exercise4"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise4/fast">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 4/Exercise4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 4/Makefile&quot;  VERBOSE=1 Exercise4/fast"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise5">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 5/Exercise5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 5"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 5/Makefile&quot;  VERBOSE=1 Exercise5"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise5/fast">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 5/Exercise5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 5"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 5/Makefile&quot;  VERBOSE=1 Exercise5/fast"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise6">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 6/Exercise6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 6/Makefile&quot;  VERBOSE=1 Exercise6"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise6/fast">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 6/Exercise6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 6/Makefile&quot;  VERBOSE=1 Exercise6/fast"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise7">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 7/Exercise7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 7/Makefile&quot;  VERBOSE=1 Exercise7"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise7/fast">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 7/Exercise7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 7/Makefile&quot;  VERBOSE=1 Exercise7/fast"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise8">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 8/Exercise8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 8"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 8/Makefile&quot;  VERBOSE=1 Exercise8"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 8/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise8/fast">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 8/Exercise8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 8"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 8/Makefile&quot;  VERBOSE=1 Exercise8/fast"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 8/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise9">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 9/Exercise9.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 9"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 9/Makefile&quot;  VERBOSE=1 Exercise9"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 9/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 9/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 9/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise9/fast">
+				<Option output="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 9/Exercise9.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 9"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 9/Makefile&quot;  VERBOSE=1 Exercise9/fast"/>
+					<CompileFile command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 9/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 9/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Games/Clion/CLion 2024.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/cmake-build-debug/All Exercises/Exercise 9/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 1/Exercise1.c">
+			<Option target="Exercise1"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 2/Exercise2.c">
+			<Option target="Exercise2"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 3/Exercise3.c">
+			<Option target="Exercise3"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 4/Exercise4.c">
+			<Option target="Exercise4"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 5/Exercise5.c">
+			<Option target="Exercise5"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 6/Exercise6.c">
+			<Option target="Exercise6"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 7/Exercise7.c">
+			<Option target="Exercise7"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 8/Exercise8.c">
+			<Option target="Exercise8"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 9/Exercise9.c">
+			<Option target="Exercise9"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/main.c">
+			<Option target="Informatics_II_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\All Exercises\Exercise 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\All Exercises\Exercise 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\All Exercises\Exercise 3\"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\All Exercises\Exercise 4\"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\All Exercises\Exercise 5\"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\All Exercises\Exercise 6\"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\All Exercises\Exercise 7\"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\All Exercises\Exercise 8\"/>
+		</Unit>
+		<Unit filename="C:/Users/ralph/Desktop/Informatics 2/Informatics-II-C-/All Exercises/Exercise 9/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\All Exercises\Exercise 9\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

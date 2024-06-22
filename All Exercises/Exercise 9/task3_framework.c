@@ -47,6 +47,19 @@ struct TreeNode* rightRotate(struct TreeNode* root, int key) {
     //Write code here
 }
 
+void printTreeRecursive(struct TreeNode *root) {
+  if (root == NULL)
+    return;
+  if (root->left != NULL) {
+    printf("  %d -- %d\n", root->val, root->left->val);
+    printTreeRecursive(root->left);
+  }
+  if (root->right != NULL) {
+    printf("  %d -- %d\n", root->val, root->right->val);
+    printTreeRecursive(root->right);
+  }
+}
+
 void printTree(struct TreeNode* root) {
   printf("graph g {\n");
   printTreeRecursive(root);
