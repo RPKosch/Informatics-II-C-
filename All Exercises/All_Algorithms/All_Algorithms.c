@@ -1,10 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#define queuesize 5
 
 int tstack = 0;
 int S[100];
-int tqueue = 0;
+
+int bqueue = 0;
+int tailqueue = 0;
+int Q[queuesize];
 
 static void push(int x){
     S[tstack] = x;
@@ -15,6 +19,17 @@ static void push(int x){
 static int pop(){
     tstack--;
     return S[tstack];
+}
+
+static void enqueue(int x){
+    Q[bqueue] = x;
+    bqueue+1 % queuesize;
+}
+
+static int dequeue(){
+    int tmp = Q[tailqueue];
+    tailqueue+1% queuesize;
+    return tmp;
 }
 
 static void swapint(int array[], int x, int y){
@@ -160,6 +175,75 @@ static void Quicksort(int array[], int l, int r){
     }
 }
 
+int M[30][30];
+int d[] = {3, 2, 4, 5, 1};
+int HAN[30];
+int c[30][30];
+char str1[] = "GGTTCATATHEYHOOOLO", str2[] = "GTATCTATHEHO";
+
+void updatematrix() {
+    for (int x = 0; x < 30; x++) {
+        for (int y = 0; y < 30; y++) {
+            M[x][y] = -1;
+            HAN[y] = -1;
+            c[x][y] = -1;
+        }
+    }
+}
+
+int matrixmemo(int i, int j) {
+    if (i == j) {
+        return 0;
+    }
+    if (M[i][j] > -1) {
+        return M[i][j];
+    }
+    for (int k = i; k < j; k++) {
+        int q = matrixmemo(i, k) + matrixmemo(k + 1, j) + d[i - 1] * d[k] * d[j];
+        if (M[i][j] == -1 || q < M[i][j]) {
+            M[i][j] = q;
+        }
+    }
+    return M[i][j];
+}
+
+int HanoiMemo(int n, int A, int B, int C){
+    if(n==1){return 1;}
+    if(HAN[n] != -1){ return HAN[n];}
+    HAN[n] = HanoiMemo(n-1, A, C, B) + 1 + HanoiMemo(n-1, C, B, A);
+    return HAN[n];
+}
+
+// Function to return the maximum of two integers
+int max(int a, int b) {
+    return (a > b) ? a : b;
+}
+
+// LCS memoization function
+int LCSmemo(int i, int j) {
+    if (i == -1 || j == -1) {
+        return 0;
+    }
+    if (c[i][j] != -1) {
+        return c[i][j];
+    }
+    if (str1[i] == str2[j]) { // Use x[i-1] and y[j-1] to correctly index 0-based strings
+        c[i][j] = 1 + LCSmemo(i-1, j-1);
+    } else {
+        c[i][j] = max(LCSmemo(i, j-1), LCSmemo(i-1, j));
+    }
+    return c[i][j];
+}
+
+void printLCS(int i, int j){
+    if(i == -1 || j == -1){return; }
+    if(c[i][j] == c[i-1][j]){ printLCS(i-1, j); }
+    else if(c[i][j] == c[i][j-1]){ printLCS(i, j-1); }
+    else {
+        printLCS(i-1, j-1);
+        printf("%c", str1[i]);
+    }
+}
 
 int main() {
     char string[] = "hallllloo";
@@ -191,8 +275,23 @@ int main() {
     push(33);
     printf(" %d", pop());
 
-    
 
+    printf("\n");
+    int size1 = sizeof(d) / sizeof(d[0]) -1;
+
+    updatematrix();
+    int result = matrixmemo(1, size1); // Start the memoization
+    printf("Minimum number of multiplications is %d\n", result);
+
+    int res = HanoiMemo(20, 1, 2, 3);
+    printf("HANOI %d\n", res);
+
+    int size3 = sizeof(str1)/sizeof(char)-2;
+    int size4 = sizeof(str2)/sizeof(char)-2;
+    int result1 = LCSmemo(size3, size4);
+
+    printf("LCS %d\n", result1);
+    printLCS(size3, size4);
     return 0;
 
 
